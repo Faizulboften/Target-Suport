@@ -1,19 +1,10 @@
-bi='\033[34;1m7' #biru
-ij='\033[32;1m' #ijo
-pr='\033[35;1m' #purple
-cy='\033[36;1m' #cyan
-me='\033[31;1m' #merah
-pu='\033[37;1m' #putih
-ku='\033[33;1m' #kuning
-or='\033[1;38;5;208m' #Orange
-
 import time
 import sys
 
 if sys.version_info[0] !=2: 
 	print('''--------------------------------------
 	REQUIRED PYTHON 2.x
-	use: python fb2.py
+	use: python Target.py
 --------------------------------------
 			''')
 	sys.exit()
